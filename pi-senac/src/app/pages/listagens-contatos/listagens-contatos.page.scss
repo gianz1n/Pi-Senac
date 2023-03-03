@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+// Botao Adicionar e Vendas
+#button_list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+#itens p{
+    color: rgb(143, 143, 143);
+}
+
+.corpo {
+    padding-top: 20px;
+}
+
+#segment{
+    color: #FFFFFF;
+}
+
+
+/*BARRA DE FERRAMENTAS*/
+ion-toolbar{
+    --ion-toolbar-background: #151515; /*cor do background*/
+    --ion-text-color: #ffffff; /*cor do texto*/
+    --ion-toolbar-color:#ffffff; /*cor do titulo*/
+    font-family: 'Inter', sans-serif;
+    
+}
+
+/*CONTEUDO OU CORPO*/
+ion-content{
+    --ion-background-color:#ffffff;
+    --ion-text-color: #070707;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+
+    width: auto;
+    border: none;
+}
+/*HEADER*/
+ion-header{
+    --ion-toolbar-border-color:#ffffff; /*linha abaixo do header*/
+}
+
+#photo{
+    margin-left: 12px;
+    margin-top: 25px;
+    
+    
+}
+
+#photo1{
+    background-color: #979393;
+
+    margin-left: 11px;
+    margin-top: 35px;
+    
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;  
+  
+}
+
+#photoPerfil{
+    border-radius: 50%;
+}
+#nome{
+
+    position: relative;
+    width: 190px;
+
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    text-transform: capitalize;
+    color: #070707;
+
+    top: 107px;
+    left: 30px;
+
+}
+.profile{
+    background-color: #F5F7F9;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.itens{
+    color: red;
+}
+
+.opmenu{
+    background-color: #ffffff;
+    border: none;
+
+    color: #070707;
+    font-size: 17px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 15px;
+
+    width: 450px;
+}
+
+.icon-icon{
+    width: 25px;
+    height: 25px;
+
+    margin-left: 8px;
+    margin-right: 5px;
+
+    position: relative;
+    top: 3px;
+}
+
+
+#estoque{
+    position: relative;
+    right: 178px;
+}
+
+#venda{
+    position: relative;
+    right: 185px;
+}
+
+#historicoEntrada{
+    position: relative;
+    right: 147px;
+}
+
+#historicoEntrada ion-icon{
+    margin-right: 8px;
+}
+
+#historicoSaida{
+    position: relative;
+    right: 154px;
+}
+
+#sair{
+    position: relative;
+    right: 191px;
+}
+
+#barrinha{
+    color: rgba(0, 0, 0, 0.705);
+    background-color: rgb(255, 255, 255);
+
+    position: relative;
+    top: 60px;
+    left: 10px;
+
+    font-weight: bold;
+    font-size: 150pt;
+    margin: 0;
+}
+
+#whitediv{
+    height: 60px;
+    width: 100%;
+
+    position: relative;
+    bottom: 60px;
+    background-color: #d41818;
+}
+
+#barrinha1{
+    background-color: rgb(255, 255, 255);
+}
+.profileHome{
+    display: flex;
+    position: relative;
+    margin-left: 245px;
+
+
+    top: 6px;
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    background-color: #979393;
+
+}
+#photoPerfilhome{
+    border-radius: 50%;
+}
+
+#nomePagina{
+    font-size: 25pt;
+    font-family: 'Tilt Warp', cursive;
+
+    position: relative;
+    left: 27px;
+    bottom: 10px;
+}
+
+#bntEstoque{
+    position: relative;
+    background-color: #5860FF;
+    color: #FFFFFF;
+    
+    font-size: 10pt;
+    height: 60px;
+    width: 120px;
+
+    left: 30px;
+    border-radius: 20px;
+
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+}
+
+#bntCarrinho{
+    position: relative;
+    background-color: #E7E7E9;
+    color: #7C7171;
+    
+    font-size: 10pt;
+    height: 60px;
+    width: 120px;
+
+    left: 45px;
+    border-radius: 20px;
+
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+}
+
+#list{
+    position: relative;
+
+    top: 10px;
+    border: none;
+}
+#imagemPro{
+    border-radius: 10px;
+}
+
+#add{
+    height: 25px;
+    width: 25px;
+
+    background-color: rgb(250, 249, 249);
+    position: relative;
+    bottom: 110px;
+    left: 160px;
+
+    font-size: 15pt;
+    color: #070707;
+
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+#itema{
+    border: none;
+}
+.botoes{
+    display: flex;
+
+}
